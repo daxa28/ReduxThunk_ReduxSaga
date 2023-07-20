@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url(./img/gg.jpg) repeat-y;
+  background-color: #000000;
+  background-size: 100%;
+}
+
+.app {
+  background: linear-gradient(360deg, #000000 0%, #000000 20%, #ffffff00 100%);
+  font-size: 16px;
+  color: #fff;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  padding: 20px 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.app h1 {
+  width: 100%;
+  text-align: center;
+  font-family: "Ruslan Display", cursive;
+  font-size: 3rem;
+  margin: 10px 0;
+  color: #e79511;
+}
+
+.about_app {
+  max-width: 700px;
+  margin: 10px auto;
+  padding: 20px 30px;
+  color: rgb(200, 200, 200);
+  background: #00000064;
+  transition: 1s;
+  font-family: "Prosto One", cursive;
+  font-size: 14px;
+}
+
+.about_app:hover {
+  color: #fff;
+  transition: 1s;
+}
+
+.about_app h3 {
+  text-align: center;
+  font-size: 28px;
+  color: rgb(14, 176, 213);
+  margin-bottom: 5px;
+  font-family: "Ruslan Display", cursive;
+}
+
+.content {
+  align-items: center;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+.content h3,
+h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.content h4 {
+  text-align: right;
+  margin-bottom: 10px;
+}
+
+.block {
+  font-family: "Prosto One", cursive;
+  width: 270px;
+  margin: 10px auto 30px;
+  padding: 15px 10px;
+  border-radius: 10px;
+  background: linear-gradient(
+    329deg,
+    rgba(152, 6, 130, 0.587) 10%,
+    #67267986 50%,
+    #832b9b7e 60%,
+    #e79511a6 100%
+  );
+  border: 2px solid #fff;
+  box-shadow: 5px 5px 10px 1px #000;
+}
+
+.h {
+  min-height: 450px;
+}
+
+button {
+  font-family: "Prosto One", cursive;
+  margin: 10px 5px 10px 0;
+  background: #832b9b7e;
+  color: #ffffff;
+  width: 9rem;
+  font-size: 14px;
+  border: 2px solid #ffffff;
+  border-radius: 3px;
+  padding: 5px 10px;
+  transition: 0.5s;
+}
+
+button:hover {
+  background: #e795117a;
+  color: white;
+  box-shadow: 0 0 5px #e79511;
+  transition: 0.5s;
+}
+
+.block-btn {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
